@@ -1,0 +1,14 @@
+Post http://127.0.0.1:8000/api/v1/customers HTTP/1.1
+
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Jon Doe",
+    "type": "z",
+    "email": "jon@doe.com",
+    "address": "1234 Wherever",
+    "city": "Some Town",
+    "state": "Texas",
+    "postalCode": "12345"
+}
